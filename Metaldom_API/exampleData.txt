@@ -1,0 +1,94 @@
+eva:
+{
+  "request": 1,
+  "answer": 1,
+  "cotization": 1000000,
+  "cotization_resume": {
+"programadores": 500,
+"pc": 3000,
+"lo otro": 90000
+},
+  "investment_return": 1000100.90
+}
+
+users:
+{
+  "id": 1,
+  "username": "Johan",
+  "name": "Saul Johan",
+  "email": "johan809@hotmail.com",
+  "dev?": true
+},
+{
+  "id": 2,
+  "username": "Saul",
+  "name": "Johan Alonzo",
+  "email": "johan809@hotmail.com",
+  "dev?": true
+},
+{
+  "id": 3,
+  "username": "ricardo",
+  "name": "Ricardo Torres",
+  "email": "unemail@gmail.com",
+  "dev?": false
+}
+
+req:
+{
+  "id": 1,
+  "client": {
+    "__data__": {
+      "_id": 3,
+      "username": "ricardo",
+      "name": "Ricardo Torres",
+      "email": "unemail@gmail.com",
+      "pwd": "12345",
+      "is_dev": false
+    },
+    "_dirty": [],
+    "__rel__": {}
+  },
+  "request_type": "Project",
+  "description": "un proyecto x",
+  "creation_date": "2021-05-08",
+  "was_attended": false
+},
+{
+  "id": 2,
+  "client": {
+    "__data__": {
+      "_id": 3,
+      "username": "ricardo",
+      "name": "Ricardo Torres",
+      "email": "unemail@gmail.com",
+      "pwd": "12345",
+      "is_dev": false
+    },
+    "_dirty": [],
+    "__rel__": {}
+  },
+  "request_type": "App",
+  "description": "un app x",
+  "creation_date": "2021-05-09",
+  "was_attended": true
+},
+{
+  "id": 3,
+  "client": {
+    "__data__": {
+      "_id": 3,
+      "username": "ricardo",
+      "name": "Ricardo Torres",
+      "email": "unemail@gmail.com",
+      "pwd": "12345",
+      "is_dev": false
+    },
+    "_dirty": [],
+    "__rel__": {}
+  },
+  "request_type": "Fix",
+  "description": "reparar el error x en la app y",
+  "creation_date": "2021-05-08",
+  "was_attended": true
+}
