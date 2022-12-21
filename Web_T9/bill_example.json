@@ -1,0 +1,28 @@
+{
+  "id": 1,
+  "client": "Juan",
+  "rnc": "1455858345",
+  "date": "2020-11-06",
+  "descrip": "Una compra",
+  "details": [
+    {
+      "id_detail": 2,
+      "prod_code": "0102",
+      "prod_name": "Aceite",
+      "unit_price": 50,
+      "cant": 2,
+      "tvalue": 100
+    },
+    {
+      "id_detail": 1,
+      "prod_code": "0101",
+      "prod_name": "Arroz",
+      "unit_price": 21,
+      "cant": 3,
+      "tvalue": 63
+    }
+  ],
+  "subt": 163,
+  "itbis": 26.08,
+  "total": 189.08
+}
